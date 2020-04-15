@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel= "stylesheet" type="text/css" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Comfortaa|Exo|Inconsolata|Righteous&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+   <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <title>My Website</title>
+    
+    
+</head>
+<body style="background-color: rgb(240, 212, 212);">
+  <div class="container">
+    <img class="mySlides" src="./images/eliza.jpg" style="width:100%">
+    <img class="mySlides" src="./images/pic 2.jpg" style="width:100%">
+    <img class="mySlides" src="./images/gallery 8.jpg" style="width:100%">
+    <img class="mySlides" src="./images/gallery 3.jpg" style="width:100%">
+    <div class="mantra"> <h2>A collective of young creatives united by a slightly obsessive love of art.</h2> </div>
+
+    <h1 class="heading"> northstreet.collective </h1> 
+
+    <nav>  
+      <ul class="ul">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+  
+  </nav>  
+
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+
+    
+
+
+
+
+        
+          
+          <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+
+
+</body>
+
+
+</html>

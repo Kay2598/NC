@@ -1,0 +1,96 @@
+*
+{
+    color: white;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+  
+}
+
+.heading {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+}
+
+.ul {
+    position: absolute;
+    top: 2%;
+    left: 30%;
+
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    font-size: large;
+    
+}
+
+.menu {
+    color: pink;
+    position: absolute;
+    top: 10%;
+
+}
+
+.gallery {
+    margin: 0px;
+    float: center;
+    
+}
+
+h1, h2, h5, h6
+{   color:white;
+    font-family: 'Righteous', monospace;
+}
+
+h3 {
+    color: rgb(255, 0, 157);
+}
+
+h2
+{ color: white;
+    size: large;
+    text-shadow: seashell;
+    text-decoration: seashell;
+    text-align:center;
+}
+
+
+p
+{  
+    font-size: large;
+}
+
+.quote {
+    color: black;
+    font-size: large;
+
+}
+
+.form{
+    display:flex; /* this makes this into flex!!*/ 
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+}
+
+.submit:hover{
+    background-color: pink;
+    color: white;
+}
+
+input, label {
+    margin: 6px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    opacity: 1;
+}
+.mantra {
+    position: absolute;
+    top: 35% ;
+    left: 15%;
+}
